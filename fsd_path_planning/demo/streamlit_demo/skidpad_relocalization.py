@@ -9,8 +9,8 @@ from fsd_path_planning.demo.streamlit_demo.common import (
     get_cones_for_configuration,
     visualize_configuration,
 )
-from fsd_path_planning.skidpad.skidpad_path_data import BASE_SKIDPAD_PATH
-from fsd_path_planning.skidpad.skidpad_relocalizer import (
+from fsd_path_planning.relocalization.skidpad.skidpad_path_data import BASE_SKIDPAD_PATH
+from fsd_path_planning.relocalization.skidpad.skidpad_relocalizer import (
     PowersetCirceFitResult,
     circle_fit_powerset,
 )
