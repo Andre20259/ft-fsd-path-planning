@@ -56,7 +56,7 @@ def get_path_calculation_config(
     return dict(
         maximal_distance_for_valid_path=5,
         mpc_path_length=20,  # 20 meters
-        mpc_prediction_horizon=40,  # 40 path points
+        mpc_prediction_horizon=30,  # 40 path points
     )
 
 
